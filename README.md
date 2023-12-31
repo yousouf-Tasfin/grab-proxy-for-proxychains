@@ -15,6 +15,6 @@ cat alive.txt | awk -F: '{print "socks5 " $1, $2}'
 
 #edit proxychain conf
 
-nano nano /etc/proxychains4.conf
+nano /etc/proxychains4.conf
 
 done 
